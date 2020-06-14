@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int n;
+	printf("\nEnter your choice between 1 to 5:");
+	scanf("%d",&n);
+	switch(n)
+	{
+		case 1:
+		printf("\nFood Item:Pasta");
+		printf("Price:Rs 350");
+		break;
+		case 2:
+		printf("\nFood Item:Tomato Salsa");
+		printf("\nPrice:Rs 280");
+		break;
+		case 3:
+		printf("\nFood Item:Chocolate Souffle");
+		printf("\nPrice:Rs 320");
+		break;
+		case 4:
+		printf("\nFood Item:Lasagna");
+		printf("\nPrice:Rs 450");
+		break;
+		case 5:
+		printf("\nFood Item:Biriyani");
+		printf("\nPrice:Rs 550");
+		default:
+		printf("\nOut of range"); 	
+	}
+	return 0;
+	getch();
+}
